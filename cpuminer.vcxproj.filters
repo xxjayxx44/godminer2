@@ -183,6 +183,12 @@
     <ClCompile Include="algo\allium.c">
       <Filter>algo</Filter>
     </ClCompile>
+    <ClCompile Include="algo\axiom.c">
+      <Filter>algo</Filter>
+    </ClCompile>
+    <ClCompile Include="algo\balloon.c">
+      <Filter>algo</Filter>
+    </ClCompile>
     <ClCompile Include="algo\bastion.c">
       <Filter>algo</Filter>
     </ClCompile>
@@ -343,9 +349,6 @@
       <Filter>algo</Filter>
     </ClCompile>
     <ClCompile Include="algo\bmw256.c">
-      <Filter>algo</Filter>
-    </ClCompile>
-    <ClCompile Include="algo\axiom.c">
       <Filter>algo</Filter>
     </ClCompile>
     <ClCompile Include="algo\scrypt-jane.c">

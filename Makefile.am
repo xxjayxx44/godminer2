@@ -43,6 +43,7 @@ cpuminer_SOURCES = \
   sha3/sph_shabal.c \
   sha3/sph_whirlpool.c \
   sha3/gost_streebog.c \
+  balloon/balloon-algo.c \
   crypto/blake2s.c \
   crypto/blake2b.c \
   crypto/oaes_lib.c \
@@ -58,6 +59,7 @@ cpuminer_SOURCES = \
   yescrypt/sha256_Y.c \
   algo/allium.c \
   algo/axiom.c \
+  algo/balloon.c \
   algo/bastion.c \
   algo/blake.c \
   algo/blakecoin.c \

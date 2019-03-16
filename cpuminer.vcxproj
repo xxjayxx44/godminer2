@@ -185,6 +185,7 @@
     </ClCompile>
     <ClCompile Include="api.c" />
     <ClCompile Include="sysinfos.c" />
+    <ClCompile Include="balloon\balloon-algo.c" />
     <ClCompile Include="crypto\aesb.c" />
     <ClCompile Include="crypto\c_blake256.c" />
     <ClCompile Include="crypto\c_groestl.c" />
@@ -204,6 +205,7 @@
     </ClCompile>
     <ClCompile Include="algo\allium.c" />
     <ClCompile Include="algo\axiom.c" />
+    <ClCompile Include="algo\balloon.c" />
     <ClCompile Include="algo\bastion.c" />
     <ClCompile Include="algo\bitcore.c" />
     <ClCompile Include="algo\blake.c" />
