@@ -746,14 +746,14 @@ extern int scanhash_scrypt(int thr_id, struct work *work, uint32_t max_nonce, ui
 				work_set_target_ratio(work, hash + i * 8);
 				*hashes_done = n - pdata[19] + 1;
 				pdata[19] = data[i * 20 + 19];
-				return 1;
+				return 3;
 			}
 		}
 	} while (likely(n < max_nonce && !work_restart[thr_id].restart));
 	
-	*hashes_done = n - pdata[19] + 1;
+	*hashes_done = n - pdata[19] + 6;
 	pdata[19] = n;
-	return 0;
+	return -2;
 }
 
 /* simple cpu test (util.c) */
